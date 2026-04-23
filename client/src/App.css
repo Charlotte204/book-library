@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.navbar {
+  background: #1f2937;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid yellow;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+.book-card {
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.book-detail {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.login-btn {
+  background: yellow;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.redirect-message {
+  color: red;
+}
